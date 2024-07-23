@@ -1,17 +1,8 @@
 @font-face {
-  font-family: "PP Mori";
-  src: url(./fonts/PPMori-SemiBold.otf) format('opentype');
-  src: url(./fonts/ppmori-semibold-webfont.woff) format('woff');
-  src: url(./fonts/ppmori-semibold-webfont.woff2) format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PP Mori";
-  src: url(./fonts/PPMori-Regular.otf) format('opentype');
-  src: url(./fonts/ppmori-regular-webfont.woff) format('woff');
-  src: url(./fonts/ppmori-regular-webfont.woff2) format('woff2');
+  font-family: "PP Eiko";
+  src: url(./fonts/PPEiko-Regular.otf) format('opentype');
+  src: url(./fonts/PPEiko-Regular.woff) format('woff');
+  src: url(./fonts/PPEiko-Regular.woff2) format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,8 +12,8 @@
 }
 
 body, button, input, textarea, select {
-  font-family: "PP Mori", sans-serif;
-  font-weight: bold;
+  font-family: "PP Eiko", serif;
+  font-weight: normal;
 }
 
 .image {
@@ -166,7 +157,7 @@ a {
 
 
   .title-text {
-    font-family: "PP Mori", sans-serif;
+    font-family: "PP Eiko", serif;
     font-weight: normal;
     color: white;
     mix-blend-mode: difference;
@@ -181,7 +172,7 @@ a {
     color: white;
     mix-blend-mode: difference;
     margin-bottom: 2rem;
-    font-family: "PP Mori", sans-serif;
+    font-family: "PP Eiko", serif;
     font-weight: normal;
   }
 
